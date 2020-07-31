@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="" />
+    <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/includes/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/navbar.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +67,10 @@
       <workItem from="1594898764872" duration="30000" />
       <workItem from="1595066603071" duration="12000" />
       <workItem from="1595225781401" duration="24000" />
-      <workItem from="1595861913468" duration="1716000" />
+      <workItem from="1595861913468" duration="4085000" />
+      <workItem from="1595927533835" duration="2227000" />
+      <workItem from="1595932392270" duration="25285000" />
+      <workItem from="1596098984983" duration="1695000" />
     </task>
     <servers />
   </component>
@@ -62,13 +81,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="227" key="NewPhpClassDialog" timestamp="1595864881835">
+    <state x="573" y="227" key="NewPhpClassDialog" timestamp="1596015055293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="573" y="227" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595864881835" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1595225786651">
+    <state x="573" y="227" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596015055293" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1596036782385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595225786651" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596036782385" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1596099002442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595932393305" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596099002442" />
   </component>
 </project>

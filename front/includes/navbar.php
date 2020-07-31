@@ -75,7 +75,7 @@
 
                         </a>
                         <a href="../admin/index.php" class="icons-btn d-inline-block"><span><i class="fas fa-user"></i></span></a>
-                        <a href="logout.php" class="icons-btn d-inline-block"><span><i class="fas fa-user-cog"></i></span></a>
+                        <a href="../admin/login.php" class="icons-btn d-inline-block"><span><i class="fas fa-user-cog"></i></span></a>
                         <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
                     </div>
                 </div>

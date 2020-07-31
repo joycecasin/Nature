@@ -1,3 +1,27 @@
+<div class="row">
+    <div class="col-12">
+        <h2>Variabele Titel</h2>
+        <hr>
+        <h3>Alle users</h3>
+        <?php
+
+        $users = User::find_all_users();
+        foreach ($users as $user){
+            echo $user->username . "<br>";
+        }
+
+        ?>
+        <h3>Zoek user met id </h3>
+        <?php
+       /* $result = User::find_user_by_id(1);
+        echo $result['username'] . "<br>";*/
+        $user = User::find_user_by_id(1);
+
+
+        echo $user->username . ' - ' . $user->id . ' - ' . $user->naam;
+        ?>
+    </div>
+</div>
 <div class="content-wrapper">
         <div class="content">
           <!-- Top Statistics -->

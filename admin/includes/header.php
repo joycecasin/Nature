@@ -1,3 +1,6 @@
+<?php require_once("init.php");?>
+<!-- outputbuffering -->
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
