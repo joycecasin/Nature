@@ -10,9 +10,15 @@ if (isset($_POST['submit'])){
 
     $user_found = User::verify_user($username, $password);
 
-    if ($user_found){
+   if ($user_found){
         $session->login($user_found);
+        /*if ($_SESSION['role'] == 'admin'){
+            redirect("index.php");
+        }else{
+            redirect("../front/index.php");
+        }*/
         redirect("index.php");
+
     }else{
         $the_message = "Your password or username FAILED";
     }

@@ -7,6 +7,7 @@ class Session
     // sessies van users automatisch te laten starten
     private $signed_in = false;
     public $user_id;
+    public $role;
 
 
     function __construct()
@@ -26,6 +27,7 @@ class Session
         if ($user){
             $this->user_id = $_SESSION['user_id'] = $user->id;
             $this->signed_in = true;
+           $this->role = $_SESSION['role'] = $user->role;
         }
     }
     // Logout methode

@@ -39,6 +39,24 @@
         $user->delete();*/
 
         ?>
+        <h3>Alle producten </h3>
+        <?php
+        $products = Product::find_all();
+        foreach ($products as $product){
+            echo $product->naam . "<br>";
+        }
+        ?>
+        <!--Nieuw product toevoegen in database -->
+        <?php
+       /* $product = new Product();
+        $product->naam = "Koeltas";
+        $product->omschrijving = "50cm groot";
+        $product->serienummer = "123 321 456";
+        $product->prijs = 25;
+
+        $product->save();*/
+        echo INCLUDES_PATH;
+        ?>
 
 
 

@@ -7,7 +7,7 @@
       <div id="sidebar" class="sidebar sidebar-with-footer">
         <!-- Aplication Brand -->
         <div class="app-brand">
-          <a href="">
+          <a href="../index.php">
             <i class="fas fa-signature"></i>
             <span class="brand-name">Nature Dashboard</span>
           </a>
@@ -28,7 +28,7 @@
               <ul class="collapse show" id="dashboard" data-parent="#sidebar-menu">
                 <div class="sub-menu">
                   <li class="active">
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="../products.php">
                       <span class="nav-text">Alle gebruikers</span>
                     </a>
                   </li>

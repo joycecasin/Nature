@@ -3,7 +3,12 @@
 <?php
 if (!$session->is_signed_in()){
     redirect("login.php");
+
 }
+/*if($_SESSION['role'] == 'klant'){
+    redirect('login.php');
+}*/
+
 
 ?>
 
