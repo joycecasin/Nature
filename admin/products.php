@@ -26,6 +26,9 @@ $products = Product::find_all();
                     <th>Filename</th>
                     <th>Type</th>
                     <th>Size</th>
+                    <th>Wijzigen</th>
+                    <th>Delete</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -33,7 +36,7 @@ $products = Product::find_all();
                 foreach ($products as $product):
                 ?>
                 <tr>
-                    <td><?php echo $product->productnr ; ?></td>
+                    <td><?php echo $product->id ; ?></td>
                     <td><img src="<?php echo $product->picture_path(); ?>" height="62" width="62" alt=""></td>
                     <td><?php echo $product->naam ; ?></td>
                     <td><?php echo $product->omschrijving ; ?></td>
@@ -42,6 +45,8 @@ $products = Product::find_all();
                     <td><?php echo $product->filename ; ?></td>
                     <td><?php echo $product->type ; ?></td>
                     <td><?php echo $product->size ; ?></td>
+                    <td><a href="edit_product.php?id=<?php echo $product->id; ?>" class="btn btn-danger rounded-0"><i class="fas fa-edit"></i></a></td>
+                    <td><a href="delete_product.php?id=<?php echo $product->id;  ?>" class="btn btn-danger rounded-0"><i class="fas fa-trash-alt"></i></a></td>
                 </tr>
                 <?php endforeach; ?>
                 </tbody>

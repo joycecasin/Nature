@@ -2,129 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc1b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc1c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc2a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc2b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc2c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc3a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc3b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc3c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc4a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc4b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/cc4c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slider5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slider6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slider7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/elements/slider8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/analytics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/chart-widgets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/ecommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/edge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/general-widgets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/github/sleek.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/lightenning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/drinkfles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/pa6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/products/zak.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/sleek-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/Untitled-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/u8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/user/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/delete_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/edit_product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc1b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc1c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc2b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc3b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc4b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/cc4c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/client.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slide1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slide2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slide3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slide4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slider5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slider6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slider7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/elements/slider8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/analytics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/chart-widgets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/ecommerce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/edge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/general-widgets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/github/sleek.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/lightenning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/products/pa6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/shop/cart1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/shop/cart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/sleek-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/Untitled-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/u8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/img/user/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +69,7 @@
       <workItem from="1595932392270" duration="25285000" />
       <workItem from="1596098984983" duration="5583000" />
       <workItem from="1596292249996" duration="26579000" />
-      <workItem from="1596846353720" duration="11607000" />
+      <workItem from="1596846353720" duration="25715000" />
     </task>
     <servers />
   </component>
@@ -196,15 +80,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="902" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597059105000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="902" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597059105000" />
     <state x="573" y="227" key="NewPhpClassDialog" timestamp="1596455412064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="227" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596455412064" />
-    <state x="438" y="376" key="NewPhpFileDialog" timestamp="1596974102803">
+    <state x="438" y="376" key="NewPhpFileDialog" timestamp="1597171769289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596531490552" />
-    <state x="438" y="376" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1596974102803" />
+    <state x="438" y="376" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1597171769289" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1596846354483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

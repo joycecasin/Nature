@@ -92,12 +92,12 @@ class Db_object
     public function delete(){
         global $database;
 
-        $del = "DELETE FROM " . static::$db_table;
-        $del .= " WHERE id= " . $database->escape_string($this->id);
-        $del .= " LIMIT = 1";
+       $del = "DELETE FROM " . static::$db_table . " ";
+       $del .= "WHERE id= " . $database->escape_string($this->id);
+       $del .= " LIMIT 1";
 
         $database->query($del);
-        return (mysqli_affected_rows($database->connection) == 1 ) ? true : false;
+        return (mysqli_affected_rows($database->connection) == 1) ? true : false;
     }
 
     // functie properties die alle properties van de class zal inlezen.

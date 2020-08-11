@@ -29,13 +29,13 @@
         ?>
         <!-- testen van update function -->
         <?php
-        $user = User::find_by_id(3);
+       /* $user = User::find_by_id(3);
         $user->naam = "Casin";
 
-        $user->save();
+        $user->save();*/
 
          // Testen verwijderen user
-       /* $user = User::find_by_id(3);
+        /*$user = User::find_by_id(9);
         $user->delete();*/
 
         ?>

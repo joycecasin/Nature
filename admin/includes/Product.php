@@ -6,7 +6,7 @@ class Product extends Db_object
 // Variabelen toevoegen
     protected static $db_table = "product";
     protected static $db_table_fields = array('product_img', 'naam', 'omschrijving', 'serienummer', 'prijs', 'filename', 'type', 'size');
-    public $productnr;
+    public $id;
     public $product_img;
     public $naam;
     public $omschrijving;
@@ -18,7 +18,7 @@ class Product extends Db_object
 
     //Variabele voor img path
     public $tmp_path;
-    public $upload_directory = 'img/products';
+    public $upload_directory = ' img/products';
     public $errors = array();
     public $upload_errors_array = array(
         UPLOAD_ERR_OK =>"There is no error",
@@ -49,7 +49,7 @@ class Product extends Db_object
 
     // Save functie om de foto's op te laden naar de database.
     public function save (){
-        if ($this->product_nr){
+        if ($this->id){
             $this->update();
         }else{
             if (!empty($this->errors)){
@@ -80,5 +80,15 @@ class Product extends Db_object
     // Picture path creëren naar de locatie waar onze bestanden zijn opgeladen samen met de bestandsnamen
     public function picture_path(){
         return $this->upload_directory . DS . $this->filename;
+    }
+
+    // Delete product functie
+    public function delete_product(){
+        if ($this->delete()){
+            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->picture_path();
+            return unlink($target_path) ? true : false;
+        }else{
+            return false;
+        }
     }
 }
