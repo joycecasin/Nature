@@ -7,7 +7,7 @@
       <div id="sidebar" class="sidebar sidebar-with-footer">
         <!-- Aplication Brand -->
         <div class="app-brand">
-          <a href="../index.php">
+          <a href="http://localhost/webshop/admin/index.php">
             <i class="fas fa-signature"></i>
             <span class="brand-name">Nature Dashboard</span>
           </a>
@@ -28,7 +28,7 @@
               <ul class="collapse show" id="dashboard" data-parent="#sidebar-menu">
                 <div class="sub-menu">
                   <li class="active">
-                    <a class="sidenav-item-link" href="../products.php">
+                    <a class="sidenav-item-link" href="">
                       <span class="nav-text">Alle gebruikers</span>
                     </a>
                   </li>
@@ -53,7 +53,7 @@
                 <div class="sub-menu">
 
                   <li>
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="http://localhost/webshop/admin/products.php">
                       <span class="nav-text">Alle producten</span>
 
                     </a>
@@ -65,7 +65,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="http://localhost/webshop/admin/products.php">
                       <span class="nav-text">Product verwijderen</span>
 
                     </a>

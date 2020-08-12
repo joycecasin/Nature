@@ -19,6 +19,7 @@ if (empty($_GET['id'])) {
             $product->prijs = $_POST['prijs'];
             $product->filename = $_POST['filename'];
             $product->update();
+            redirect('products.php');
         }
     }
 }
@@ -29,7 +30,7 @@ if (empty($_GET['id'])) {
     <div class="row">
         <div class="col-12">
             <h2>Producten wijzigen</h2>
-            <form action="edit_product.php" method="post">
+            <form action="edit_product.php?id= <?php echo $product->id; ?>" method="post">
                 <div class="col-md-8">
                     <div class="form-group">
                         <a href="#" class="thumbnail"><img src="<?php echo $product->picture_path(); ?>" height="350" width="350" alt=""></a>
@@ -76,14 +77,11 @@ if (empty($_GET['id'])) {
                                     <input readonly type="text" name="type" class="form-control" value="<?php echo $product->type; ?>">
                                 </p>
                                 <p class="text">
-                                    File Size: <span class="data">3547458</span>
+                                    <label for="size">File size</label>
+                                    <input readonly type="text" name="size" class="form-control" value="<?php echo $product->size; ?>">
                                 </p>
                             </div>
                             <div class="info-box-footer float-left">
-                                <div class="info-box-delete pull-left">
-                                    <a href="delete_product.php?id=<?php echo $product->id; ?>"
-                                       class="btn btn-danger btn-lg">Delete</a>
-                                </div>
                                 <div class="info-box-update float-right">
                                     <input type="submit" name="update" value="update" class="btn btn-primary btn-lg">
                                 </div>
