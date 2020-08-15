@@ -1,13 +1,15 @@
 
 <?php include("includes/header.php");?>
 <?php
-if (!$session->is_signed_in()){
+/*if (!$session->is_signed_in()){
     redirect("login.php");
 
-}
-/*if($_SESSION['role'] == 'klant'){
-    redirect('login.php');
 }*/
+
+/* Als klant inlogt of de role is leeg dan wordt je redirect naar de login pagina */
+if($_SESSION['role'] == 'klant' || empty($_SESSION['role'])){
+    redirect('login.php');
+}
 
 
 ?>

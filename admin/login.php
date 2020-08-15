@@ -12,15 +12,15 @@ if (isset($_POST['submit'])){
 
    if ($user_found){
         $session->login($user_found);
-        /*if ($_SESSION['role'] == 'admin'){
+        if ($_SESSION['role'] == 'admin'){
             redirect("index.php");
         }else{
             redirect("../front/index.php");
-        }*/
-        redirect("index.php");
+        }
 
     }else{
         $the_message = "Your password or username FAILED";
+        echo $the_message;
     }
 }else{
     $username = "";

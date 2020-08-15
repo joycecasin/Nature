@@ -28,7 +28,7 @@
               <ul class="collapse show" id="dashboard" data-parent="#sidebar-menu">
                 <div class="sub-menu">
                   <li class="active">
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="http://localhost/webshop/admin/users.php">
                       <span class="nav-text">Alle gebruikers</span>
                     </a>
                   </li>

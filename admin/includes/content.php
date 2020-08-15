@@ -58,9 +58,6 @@
         echo INCLUDES_PATH;
         ?>
 
-
-
-
     </div>
 </div>
 <div class="content-wrapper">

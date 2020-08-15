@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="single-content">
-                <img src="images/ZW/zw_boodschap.png" alt="">
+                <img src="images/ZW/eten/lunchtas2.png" alt="">
                 <div class="text-content">
                     <h4>foodwrap</h4>
                     <h5>€9,95</h5>

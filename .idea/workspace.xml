@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/Untitled-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/u8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/users/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/Untitled-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/u8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/user/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/zw_eten.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/zw_eten.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +93,10 @@
       <workItem from="1596098984983" duration="5583000" />
       <workItem from="1596292249996" duration="26579000" />
       <workItem from="1596846353720" duration="27870000" />
-      <workItem from="1597178487726" duration="1307000" />
+      <workItem from="1597178487726" duration="2066000" />
+      <workItem from="1597305208227" duration="4047000" />
+      <workItem from="1597486987674" duration="4094000" />
+      <workItem from="1597512605236" duration="658000" />
     </task>
     <servers />
   </component>
@@ -92,15 +115,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="227" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596455412064" />
-    <state x="438" y="376" key="NewPhpFileDialog" timestamp="1597171769289">
+    <state x="438" y="376" key="NewPhpFileDialog" timestamp="1597222403880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596531490552" />
-    <state x="438" y="376" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1597171769289" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1597178501273">
+    <state x="438" y="376" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1597222403880" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1597512607071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595932393305" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597178501273" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597512607071" />
   </component>
 </project>

@@ -37,6 +37,10 @@ class Session
         $this->signed_in = false;
     }
 
+    public function lockout(){
+        unset($_SESSION['role']);
+    }
+
     // Kijken of die username aanwezig is en indien deze aanwezig is wordt deze in user_id geplaatst en signed_in op true geplaatst.
     private function check_the_login(){
         if (isset($_SESSION['user_id'])){

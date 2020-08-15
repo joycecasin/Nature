@@ -103,7 +103,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 item-entry mb-4">
                         <a href="shop-single.php" class="product-item md-height bg-gray d-block">
-                            <img src="images/Baby/luiers.jpg" alt="Image" class="img-fluid">
+                            <img src="images/Baby/luiers/luiers.jpg" alt="Image" class="img-fluid">
                         </a>
                         <h2 class="item-title"><a href="shop-single.html">Luiers</a></h2>
                         <strong class="item-price">€30,00</strong>
