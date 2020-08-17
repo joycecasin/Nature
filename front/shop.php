@@ -2,7 +2,6 @@
 
 <?php include('includes/navbar.php'); ?>
 
-
         <div class="site-section">
             <div class="container">
 
@@ -65,7 +64,11 @@
 
             </div>
         </div>
+<div class="row">
+    <div class="col-12">
 
+    </div>
+</div>
         <!-- Begin Section Producten ontdekken-->
        <!--  <div class="site-section">
             <div class="container">

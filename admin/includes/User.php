@@ -5,7 +5,7 @@ class User extends Db_object
 {
     //Toevoegen variabelen die aanwezig zijn in tabel User in database
     protected static $db_table = "user";
-    protected static $db_table_fields = array('username' , 'password' , 'naam' , 'voornaam' , 'role');
+    protected static $db_table_fields = array('role', 'voornaam', 'naam', 'username', 'password');
 
     public $id;
     public $username;
@@ -13,6 +13,7 @@ class User extends Db_object
     public $voornaam;
     public $naam;
     public $role;
+
 
 // functie Verify users
     public static function verify_user($user, $pass)

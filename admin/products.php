@@ -14,6 +14,7 @@ $products = Product::find_all();
     <div class="row">
         <div class="col-12">
             <h2>Producten</h2>
+            <td><a href="add_product.php" class="btn btn-primary rounded-0"><i class="fas fa-user-plus"></i> Product toevoegen</a></td>
             <table class="table table-header">
                 <thead>
                 <tr>

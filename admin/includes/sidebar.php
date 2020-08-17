@@ -34,7 +34,7 @@
                   </li>
 
                   <li>
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="../admin/add_user.php">
                       <span class="nav-text">Gebruiker toevoegen</span>
                     </a>
                   </li>
@@ -59,13 +59,13 @@
                     </a>
                   </li>
                   <li>
-                    <a class="sidenav-item-link" href="">
+                    <a class="sidenav-item-link" href="../admin/add_product.php">
                       <span class="nav-text">Product toevoegen</span>
 
                     </a>
                   </li>
                   <li>
-                    <a class="sidenav-item-link" href="http://localhost/webshop/admin/products.php">
+                    <a class="sidenav-item-link" href="../admin/products.php">
                       <span class="nav-text">Product verwijderen</span>
 
                     </a>

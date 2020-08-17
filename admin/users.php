@@ -15,12 +15,12 @@ $users = User::find_all();
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h2>Users</h2>
+            <h2>Alle gebruikers</h2>
+            <td><a href="add_user.php" class="btn btn-primary rounded-0"><i class="fas fa-user-plus"></i> User toevoegen</a></td>
             <table class="table table-header">
                 <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Userfoto</th>
                     <th>Username</th>
                     <th>Password</th>
                     <th>Voornaam</th>
@@ -37,7 +37,6 @@ $users = User::find_all();
                     ?>
                     <tr>
                         <td><?php echo $user->id ; ?></td>
-                        <td><img src="<?php echo "test"; ?>" height="62" width="62" alt=""></td>
                         <td><?php echo $user->username ; ?></td>
                         <td><?php echo $user->password ; ?></td>
                         <td><?php echo $user->voornaam ; ?></td>

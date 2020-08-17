@@ -12,22 +12,17 @@
              <!-- User Account -->
               <li class="dropdown user-menu">
                 <button href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-<!--                   <p>--><?php //$login_user = User::find_by_id($session->user_id); echo $login_user->username; ?><!--</p>-->
-                  <span class="d-none d-lg-inline-block">Abdus Salam</span>
+
+                  <span class="d-none d-lg-inline-block"><?php $login_user = User::find_by_id($session->user_id); echo $login_user->username; ?></span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-right">
                   <!-- User image -->
                   <li class="dropdown-header">
                     <img src="assets/img/user/user.png" class="img-circle" alt="User Image" />
                     <div class="d-inline-block">
-                      Abdus Salam <small class="pt-1">abdus@gmail.com</small>
-                    </div>
-                  </li>
+                        <?php $login_user = User::find_by_id($session->user_id); echo $login_user->naam . " " . $login_user->voornaam; ?>
 
-                  <li>
-                    <a href="">
-                      <i class="mdi mdi-account"></i> My Profile
-                    </a>
+                    </div>
                   </li>
 
                   <li class="dropdown-footer">
@@ -38,6 +33,5 @@
             </ul>
           </div>
         </nav>
-
 
       </header>
