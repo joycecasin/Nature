@@ -15,14 +15,15 @@ class Product extends Db_object
     public $filename;
     public $type;
     public $size;
+    public $product_image;
 
     //Variabele voor img path
     public $tmp_path;
-    public $upload_directory = ' img/products';
+    public $upload_directory = 'img' . DS . 'products';
 
 
     // Functie die de foutmeldingen opvangen
-    public  function  set_file($file){
+    public  function  set_file_product($file){
         if (empty($file) || !$file || !is_array($file)){
             $this->errors[] = "No file uploaded!";
             return false ;
@@ -30,29 +31,29 @@ class Product extends Db_object
             $this->errors[] = $this->upload_errors_array[$file['error']];
             return false;
         }else{
-            $this->filename = basename($file['name']);
-            $this->tmp_path = $file['temp_path'];
+            $this->filename = basename($file['product_img']);
+            $this->tmp_path = $file['tmp_path'];
             $this->type = $file['type'];
             $this->size = $file['size'];
         }
     }
 
     // Save functie om de foto's op te laden naar de database.
-    public function save (){
+    public function save_product (){
         if ($this->id){
             $this->update();
         }else{
             if (!empty($this->errors)){
                 return false;
             }
-            if (empty($this->filename) || empty($this->tmp_path)){
+            if (empty($this->product_img) || empty($this->tmp_path)){
                 $this->errors[] = "File not available";
                 return false ;
             }
-            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->filename;
+            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->product_img;
 
             if (file_exists($target_path)){
-                $this->errors[] = "File {$this->filename} exists";
+                $this->errors[] = "File {$this->product_img} exists";
                 return false;
             }
             if (move_uploaded_file($this->tmp_path, $target_path)){
@@ -69,7 +70,7 @@ class Product extends Db_object
 
     // Picture path creëren naar de locatie waar onze bestanden zijn opgeladen samen met de bestandsnamen
     public function picture_path(){
-        return $this->upload_directory . DS . $this->filename;
+        return $this->upload_directory . DS . $this->product_img;
     }
 
     // Delete product functie

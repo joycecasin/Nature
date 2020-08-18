@@ -13,9 +13,11 @@ if (!$session->is_signed_in()) {
             $product->omschrijving = $_POST['omschrijving'];
             $product->serienummer = $_POST['serienummer'];
             $product->prijs = $_POST['prijs'];
+            $product->set_file_product($_FILES['file']);
 
 
-            $product->save();
+
+            $product->save_product();
             redirect('products.php');
         }
     }
@@ -31,22 +33,25 @@ if (!$session->is_signed_in()) {
                 <div class="col-md-8">
 
                     <div class="form-group">
-                        <label for="naam">Naam</label>
+                        <label for="naam">Naam product</label>
                         <input type="text" name="naam" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="omschrijving">omschrijving</label>
+                        <label for="omschrijving">Omschrijving</label>
                         <input type="text" name="omschrijving" class="form-control" >
                     </div>
                     <div class="form-group">
-                        <label for="serienummer">serienummer</label>
+                        <label for="serienummer">Serienummer</label>
                         <input type="text" name="serienummer" class="form-control" >
                     </div>
                     <div class="form-group">
-                        <label for="prijs">prijs</label>
+                        <label for="prijs">Prijs</label>
                         <input type="text" name="prijs" class="form-control">
                     </div>
-
+                    <div class="form-group">
+                        <label for="file">Product foto</label>
+                        <input type="file" name="file" class="form-control">
+                    </div>
                     <input type="submit" name="submit" value="Product toevoegen" class="btn btn-primary">
                 </div>
 

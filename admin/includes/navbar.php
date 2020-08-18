@@ -13,12 +13,12 @@
               <li class="dropdown user-menu">
                 <button href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 
-                  <span class="d-none d-lg-inline-block"><?php $login_user = User::find_by_id($session->user_id); echo $login_user->username; ?></span>
+                  <span class="d-none d-lg-inline-block"><?php $login_user = User::find_by_id($session->user_id); echo $login_user->naam . " " . $login_user->voornaam; ?></span>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-right">
+                <ul class="dropdown-menu dropdown-menu-left">
                   <!-- User image -->
                   <li class="dropdown-header">
-                    <img src="assets/img/user/user.png" class="img-circle" alt="User Image" />
+
                     <div class="d-inline-block">
                         <?php $login_user = User::find_by_id($session->user_id); echo $login_user->naam . " " . $login_user->voornaam; ?>
 
