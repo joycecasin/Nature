@@ -1,61 +1,56 @@
-<?php include("includes/header.php"); ?>
-
-<?php
-// enkel ingelogde gebruiker mag deze pagina zien
-if (!$session->is_signed_in()){
+<?php include("includes/header.php");
+if (!$session->is_signed_in()) {
     redirect('login.php');
 }
-
 $products = Product::find_all();
 ?>
-<?php include("includes/sidebar.php"); ?>
-<?php include("includes/navbar.php"); ?>
+<?php include("includes/sidebar.php") ?>
+<?php include("includes/navbar.php") ?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h2>Producten</h2>
-            <td><a href="add_product.php" class="btn btn-primary rounded-0"><i class="fas fa-user-plus"></i> Product toevoegen</a></td>
+            <h2>Products
+                <abbr title="Add Photo"><a class="btn btn-primary" href="upload_product.php"><i
+                            class="fas fa-images"></i></a></abbr>
+            </h2>
+            <hr>
             <table class="table table-header">
                 <thead>
-                <tr>
-                    <th>Productnr</th>
-                    <th>Product_img</th>
-                    <th>Naam</th>
-                    <th>Omschrijving</th>
-                    <th>Serienummer</th>
-                    <th>Prijs</th>
-                    <th>Filename</th>
-                    <th>Type</th>
-                    <th>Size</th>
-                    <th>Wijzigen</th>
-                    <th>Delete</th>
-
-                </tr>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Id</th>
+                        <th>Productname</th>
+                        <th>Description</th>
+                        <th>Delete</th>
+                        <th>Delete²</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <?php
-                foreach ($products as $product):
-                ?>
-                <tr>
-                    <td><?php echo $product->id ; ?></td>
-                    <td><img src="<?php echo $product->picture_path(); ?>" height="62" width="62" alt=""></td>
-                    <td><?php echo $product->naam ; ?></td>
-                    <td><?php echo $product->omschrijving ; ?></td>
-                    <td><?php echo $product->serienummer ; ?></td>
-                    <td><?php echo $product->prijs ; ?></td>
-                    <td><?php echo $product->filename ; ?></td>
-                    <td><?php echo $product->type ; ?></td>
-                    <td><?php echo $product->size ; ?></td>
-                    <td><a href="edit_product.php?id=<?php echo $product->id; ?>" class="btn btn-danger rounded-0"><i class="fas fa-edit"></i></a></td>
-                    <td><a href="delete_product.php?id=<?php echo $product->id;  ?>" class="btn btn-danger rounded-0"><i class="fas fa-trash-alt"></i></a></td>
-                </tr>
-                <?php endforeach; ?>
+                    <?php foreach ($products as $product): ?>
+                    <tr>
+                        <td><img src="<?php echo $product->picture_path(); ?>" width="75" alt="picture"></td>
+                        <td class="d-flex align-self-stretch"><?php echo $product->id; ?></td>
+                        <td><?php echo $product->naam; ?></td>
+                        <td><?php echo $product->omschrijving; ?></td>
+                        <td><a class="btn btn-danger rounded-0" href="delete_photo.php?id=<?php echo $product->id; ?>"><i class="far fa-trash-alt"></i></a></td>
+                        <!-- Delete button with alert -->
+                        <td><a class="btn btn-danger rounded-0" onClick="deletephoto(<?php echo $product->id; ?>)"><i class="far fa-trash-alt"></i></a></td>
+                        <!-- JavaScript function for delete -->
+                        <script language="javascript">
+                            function deletephoto(id){
+                                if(confirm("Do you want to delete this photo?")){
+                                    window.location.href="delete_photo.php?id=<?php echo $product->id; ?>";
+                                    return true
+                                }
+                            }
+                        </script>
+                    </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
 
-<?php include("includes/footer.php"); ?>
-
-
+<?php include("includes/footer.php") ?>

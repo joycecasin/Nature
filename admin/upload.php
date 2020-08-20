@@ -1,46 +1,53 @@
-<?php include ("includes/header.php"); ?>
-<?php include ("includes/sidebar.php"); ?>
-<?php include ("includes/navbar.php"); ?>
-
-<?php
-//inloggen
-if (!$session->is_signed_in()){
+<?php include("includes/header.php");
+if (!$session->is_signed_in()) {
     redirect('login.php');
 }
+?>
+<?php include("includes/sidebar.php") ?>
+<?php include("includes/content-top.php") ?>
 
-//upload
-$message = "" ;
-if (isset($_POST['submit'])){
+<?php
+$message = "";
+if (isset($_POST['uploadproduct'])) {
     $product = new Product();
-    $product->naam = $_POST['titel'];
-    $product->set_file($_FILES['file']);
+    $product->naam = $_POST['naam'];
+    $product->omschrijving = $_POST['omschrijving'];
+    $product->set_product_file($_FILES['file']);
 
-    if ($product->save()){
-        $message = "Product uploaded successfully";
-    }else{
-        $message = join("<br>", $product->errors);
+    if ($product->save_product()) {
+        $message = "Photo uploaded successfully";
+        redirect('products.php');
+    } else {
+        $message = join('<br>', $product->errors);
     }
 }
 ?>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="page-header">Upload</h1>
-            <p><?php echo $message; ?></p>
-            <form action="upload.php" method="post" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="titel">Titel</label>
-                    <input type="text" name="titel" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="file" name="file" class="form-control">
-                </div>
-                <input type="submit" name="submit" value="upload" class="btn btn-primary">
-            </form>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="page-header">
+                    Upload Product
+                </h1>
+                <hr>
+                <h5 style="color: red"><?php echo $message; ?></h5>
+                <form action="upload_product.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="title">productname</label>
+                        <input type="text" name="naam" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">description</label>
+                        <input type="text" name="omschrijving" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">file</label>
+                        <input type="file" name="file" class="form-control">
+                    </div>
+                    <input type="submit" name="uploadproduct" value="Upload Product" class="btn btn-primary">
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
-
-<?php include ("includes/footer.php"); ?>
-
+<?php include("includes/footer.php") ?>

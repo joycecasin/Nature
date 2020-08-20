@@ -13,11 +13,11 @@ if (!$session->is_signed_in()) {
             $product->omschrijving = $_POST['omschrijving'];
             $product->serienummer = $_POST['serienummer'];
             $product->prijs = $_POST['prijs'];
-            $product->set_file_product($_FILES['file']);
+            $product->set_file_product($_FILES['product_image']);
 
 
 
-            $product->save_product();
+            $product->save();
             redirect('products.php');
         }
     }

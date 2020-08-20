@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/clients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/drinkfles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/zak.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/add_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form-validation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/klant_profiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/shop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,7 @@
       <workItem from="1597178487726" duration="2066000" />
       <workItem from="1597305208227" duration="4047000" />
       <workItem from="1597486987674" duration="4094000" />
-      <workItem from="1597512605236" duration="31095000" />
+      <workItem from="1597512605236" duration="49621000" />
     </task>
     <servers />
   </component>
