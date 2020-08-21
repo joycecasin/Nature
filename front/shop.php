@@ -14,9 +14,10 @@ $product = Product::find_all();
 
             <div class="row mb-5">
 
-                <?php foreach ($product as $products): ?>
                     <div class="col-md-4 col-sm-6">
+                        <?php foreach ($product as $products): ?>
                         <div class="single-content">
+
                             <img src="<?php echo 'admin' . DS . $product->picture_path(); ?>" alt="" class="img-fluid">
                             <div class="text-content">
                                 <h4><?php echo $products->naam; ?></h4>
@@ -28,8 +29,9 @@ $product = Product::find_all();
                                 </a>
                             </div>
                         </div>
+                        <?php endforeach; ?>
                     </div>
-                <?php endforeach; ?>
+
                 <!--<div class="row align">
                     <div class="col-md-12 mb-5">
                         <div class="float-md-left">

@@ -51,10 +51,7 @@ if (empty($_GET['id'])) {
                         <label for="prijs">Prijs</label>
                         <input type="text" name="prijs" class="form-control" value="<?php echo $product->prijs; ?>">
                     </div>
-                    <div class="form-group">
-                        <label for="filename">Filename</label>
-                        <input type="file" name="filename" class="form-control" value="<?php echo $product->filename; ?>">
-                    </div>
+
                 </div>
                 <div class="col-md-4">
                     <div class="photo-info-box">
@@ -72,14 +69,7 @@ if (empty($_GET['id'])) {
                                 <p class="text">
                                     Filename: <span class="data">image.jpg</span>
                                 </p>
-                                <p class="text">
-                                    <label for="type">File Type</label>
-                                    <input readonly type="text" name="type" class="form-control" value="<?php echo $product->type; ?>">
-                                </p>
-                                <p class="text">
-                                    <label for="size">File size</label>
-                                    <input readonly type="text" name="size" class="form-control" value="<?php echo $product->size; ?>">
-                                </p>
+
                             </div>
                             <div class="info-box-footer float-left">
                                 <div class="info-box-update float-right">

@@ -47,6 +47,7 @@ class User extends Db_object
     }
 
 
+
 }
 
 ?>

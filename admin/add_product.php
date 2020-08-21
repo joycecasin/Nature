@@ -13,11 +13,11 @@ if (!$session->is_signed_in()) {
             $product->omschrijving = $_POST['omschrijving'];
             $product->serienummer = $_POST['serienummer'];
             $product->prijs = $_POST['prijs'];
-            $product->set_file_product($_FILES['product_image']);
+            $product->set_product_file($_FILES['product_image']);
 
 
 
-            $product->save();
+            $product->save_product();
             redirect('products.php');
         }
     }
@@ -29,7 +29,7 @@ if (!$session->is_signed_in()) {
     <div class="row">
         <div class="col-12">
             <h2>Product Toevoegen</h2>
-            <form action="add_product.php" method="post">
+            <form action="add_product.php" method="post" enctype="multipart/form-data">
                 <div class="col-md-8">
 
                     <div class="form-group">

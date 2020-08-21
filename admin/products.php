@@ -10,20 +10,20 @@ $products = Product::find_all();
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h2>Products
-                <abbr title="Add Photo"><a class="btn btn-primary" href="upload_product.php"><i
-                            class="fas fa-images"></i></a></abbr>
-            </h2>
+            <h2>Producten</h2>
+            <td><a href="add_product.php" class="btn btn-primary rounded-0"><i class="fab fa-product-hunt"></i> Product toevoegen</a></td>
             <hr>
             <table class="table table-header">
                 <thead>
                     <tr>
-                        <th>Photo</th>
-                        <th>Id</th>
-                        <th>Productname</th>
-                        <th>Description</th>
+                        <th>Product_img</th>
+                        <th>Productnr</th>
+                        <th>Naam</th>
+                        <th>Omschrijving</th>
+                        <th>Serienummer</th>
+                        <th>Prijs</th>
+                        <th>Wijzigen</th>
                         <th>Delete</th>
-                        <th>Delete²</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,18 +33,11 @@ $products = Product::find_all();
                         <td class="d-flex align-self-stretch"><?php echo $product->id; ?></td>
                         <td><?php echo $product->naam; ?></td>
                         <td><?php echo $product->omschrijving; ?></td>
-                        <td><a class="btn btn-danger rounded-0" href="delete_photo.php?id=<?php echo $product->id; ?>"><i class="far fa-trash-alt"></i></a></td>
-                        <!-- Delete button with alert -->
-                        <td><a class="btn btn-danger rounded-0" onClick="deletephoto(<?php echo $product->id; ?>)"><i class="far fa-trash-alt"></i></a></td>
-                        <!-- JavaScript function for delete -->
-                        <script language="javascript">
-                            function deletephoto(id){
-                                if(confirm("Do you want to delete this photo?")){
-                                    window.location.href="delete_photo.php?id=<?php echo $product->id; ?>";
-                                    return true
-                                }
-                            }
-                        </script>
+                        <td><?php echo $product->serienummer; ?></td>
+                        <td><?php echo $product->prijs; ?></td>
+                        <td><a href="edit_product.php?id=<?php echo $product->id; ?>" class="btn btn-danger rounded-0"><i class="fas fa-edit"></i></a></td>
+                        <td><a href="delete_product.php?id=<?php echo $product->id;  ?>" class="btn btn-danger rounded-0"><i class="fas fa-trash-alt"></i></a></td>
+
                     </tr>
                     <?php endforeach; ?>
                 </tbody>

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6b50cb-6c6b-4c45-bad8-c1f096f903cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/img/drinkfles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/img/zak.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/403page.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/403page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/add_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/delete_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/delete_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/edit_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/includes/navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/shop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +95,8 @@
       <workItem from="1597178487726" duration="2066000" />
       <workItem from="1597305208227" duration="4047000" />
       <workItem from="1597486987674" duration="4094000" />
-      <workItem from="1597512605236" duration="49621000" />
+      <workItem from="1597512605236" duration="54902000" />
+      <workItem from="1597992616636" duration="3190000" />
     </task>
     <servers />
   </component>
@@ -119,20 +123,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597689798113" />
-    <state x="573" y="227" key="NewPhpClassDialog" timestamp="1596455412064">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2636" y="287" key="NewPhpClassDialog" timestamp="1597957205301">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="573" y="227" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596455412064" />
-    <state x="2468" y="475" key="NewPhpFileDialog" timestamp="1597758177094">
+    <state x="2636" y="287" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597957205301" />
+    <state x="2468" y="475" key="NewPhpFileDialog" timestamp="1597957214046">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596531490552" />
-    <state x="2468" y="475" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597758177094" />
+    <state x="2468" y="475" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597957214046" />
     <state x="438" y="376" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1597222403880" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1597512607071">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1920" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1597992630878">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1595932393305" />
+    <state x="1920" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597992630878" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597512607071" />
   </component>
 </project>

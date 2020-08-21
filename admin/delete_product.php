@@ -9,7 +9,7 @@ if (empty($_GET['id'])){
 }
 $product = Product::find_by_id($_GET['id']);
 if ($product){
-    $product->delete_product();
+    $product->delete_photo();
     redirect('products.php');
 }else{
     redirect('products.php');

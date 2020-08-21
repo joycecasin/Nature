@@ -12,6 +12,7 @@ require_once("Database.php");
 require_once("Db_object.php");
 require_once("User.php");
 require_once(INCLUDES_PATH . DS ."Product.php");
+require_once("Client.php");
 require_once("Session.php");
 
 

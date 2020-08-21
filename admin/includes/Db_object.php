@@ -66,7 +66,8 @@ class Db_object
         } else {
             return false;
         }
-        $database->query($cre);
+       $database->query($cre);
+
     }
 
     //wijzigen van user

@@ -16,6 +16,7 @@ if (isset($_POST['submit'])){
             redirect("index.php");
         }else{
             redirect("../front/index.php");
+
         }
 
     }else{

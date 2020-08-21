@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3308
--- Gegenereerd op: 18 aug 2020 om 14:36
+-- Gegenereerd op: 21 aug 2020 om 08:08
 -- Serverversie: 8.0.18
 -- PHP-versie: 7.3.12
 
@@ -102,19 +102,16 @@ CREATE TABLE IF NOT EXISTS `product` (
   `omschrijving` text NOT NULL,
   `serienummer` varchar(255) NOT NULL,
   `prijs` int(10) NOT NULL,
-  `filename` varchar(255) NOT NULL,
-  `type` varchar(255) NOT NULL,
-  `size` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `product`
 --
 
-INSERT INTO `product` (`id`, `product_img`, `naam`, `omschrijving`, `serienummer`, `prijs`, `filename`, `type`, `size`) VALUES
-(1, '', 'Drinkfles', 'Drinkfles 250ml ', '123 456 789', 10, 'drinkfles', 'jpg', 35),
-(2, '', 'Koeltas 2.5', '50cm groot', '123 321 457', 20, 'zak.jpeg', 'jpeg', 0);
+INSERT INTO `product` (`id`, `product_img`, `naam`, `omschrijving`, `serienummer`, `prijs`) VALUES
+(1, 'drinkfles.jpg', 'Test_afbeelding_wijzigen', 'Test_afbeelding', '123 456 789', 10),
+(3, 'zak.jpeg', 'test_add_product', 'test_add_product', 'test', 12);
 
 -- --------------------------------------------------------
 
@@ -131,7 +128,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `user`
@@ -146,7 +143,8 @@ INSERT INTO `user` (`id`, `role`, `voornaam`, `naam`, `username`, `password`) VA
 (10, 'admin', 'Test_add', 'test_add', 'test_add', 'test'),
 (11, 'admin', 'Test_add_foto', 'test_add_foto', 'test_add_foto', 'test'),
 (12, 'admin', 'Joyce1.0', 'Casin', 'joyce', 'test1'),
-(13, 'admin', 'Joyce1.0', 'Casin', 'joyce', 'test1');
+(13, 'admin', 'Joyce1.0', 'Casin', 'joyce', 'test1'),
+(15, 'admin', 'test_add_user', 'test_add_user', 'test_add_user', 'test');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
