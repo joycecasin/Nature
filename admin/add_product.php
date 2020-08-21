@@ -50,7 +50,7 @@ if (!$session->is_signed_in()) {
                     </div>
                     <div class="form-group">
                         <label for="file">Product foto</label>
-                        <input type="file" name="file" class="form-control">
+                        <input type="file" name="product_image" class="form-control">
                     </div>
                     <input type="submit" name="submit" value="Product toevoegen" class="btn btn-primary">
                 </div>
